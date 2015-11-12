@@ -1,75 +1,213 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Myh by DinamickaDevelopment</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- CSS Files -->
+    <!-- Fonts library -->
+    <link href="stylesheets/fonts.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS-------->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom css------->
+    <link href="stylesheets/custom.css" rel="stylesheet" />
+    <!-- Master Slider core CSS -->
+    <link href="stylesheets/masterslider.css" rel="stylesheet" />
 
-  </head>
-  <body>
+</head>
+<body>
+    <nav class="navbar navmy-cutom navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- For mobile nav -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="../images/MYH_finewines_Logo.png">
+                </a>
+            </div>
 
-      <header>
-        <h1>Myh</h1>
-        <p>Site for client</p>
-      </header>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ">
+                    <li class="current"><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ZALTO GLASSWARE<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">THE BRAND</a></li>
+                            <li><a href="#">THE GLASSWARE</a></li>
+                            <li><a href="#">THE PRAISE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            <div class="lang-cont">
+                    <a href="#" class="lang">ENGLISH</a>|
+                    <a href="#" class="lang">中国</a>
+            </div>
+            </div><!-- /.div collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <section id="mainSlider">
+        <div class="master-slider" id="masterslider">
+            <div class="ms-slide" data-fill-mode="fill">
+                <img src="../images/slider.jpg" data-src="../images/slider.jpg" alt="lorem ipsum dolor sit" />
+                <!-- slide text layer -->
+                <div class="ms-layer ms-caption" style="top:10px; left:30px;">
+                    Lorem ipsum dolor sit amet
+                </div>
 
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/DinamickaDevelopment/MYH" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/DinamickaDevelopment/MYH/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/DinamickaDevelopment/MYH/tarball/master" class="button">TAR</a></li>
-          </ul>
+            </div>
+            <div class="ms-slide" data-fill-mode="fill">
+                <!-- slide background -->
+                <img src="../images/slider.jpg" data-src="../images/slider.jpg" alt="lorem ipsum dolor sit" />
+                <div class="ms-layer ms-caption" style="top:10px; left:30px;">
+                    Lorem ipsum dolor sit amet
+                </div>
+            </div>
+            <!-- end of slide -->
         </div>
-      </div><!-- end banner -->
+        <!-- end of masterslider -->
+    </section>
+    <section id="zaltoGlassware">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>zalto glassware</h2>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="slogan">Lorem ipsum dolor sit amet consectetur adipiscing elit</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="glass-img">
+                        <img src="../images/Burgundy.png" alt="Burgundy" width="226" height="429" />
+                    </div>
+                    <h3 class="glass-title">Burgundy</h3>
+                    <div class="glass-param">
+                        <div class="param">Height:<span class="param-number">230mm</span></div>
+                        <div class="param">Volume:<span class="param-number">960mm</span></div>
+                    </div>
+                    <div class="description">
+                        <div class="generalDesc"></div>
+                        <div class="secenderyDesc"></div>
+                    </div>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                    <span class="swicher">View more</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="glass-img">
+                        <img src="../images/Bordeaux.png" alt="Bordeaux" />
+                    </div>
+                    <h3 class="glass-title">Bordeaux</h3>
+                    <div class="glass-param">
+                        <div class="param">Height:<span class="param-number">240mm</span></div>
+                        <div class="param">Volume:<span class="param-number">765mm</span></div>
+                    </div>
+                    <div class="description">
+                        <div class="generalDesc"></div>
+                        <div class="secenderyDesc"></div>
+                    </div>
+                    <span class="swicher">View more</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="glass-img">
+                        <img src="../images/Universal.png" alt="Universal" />
+                    </div>
+                    <h3 class="glass-title">Universal</h3>
+                    <div class="glass-param">
+                        <div class="param">Height:<span class="param-number">235mm</span></div>
+                        <div class="param">Volume:<span class="param-number">530mm</span></div>
+                    </div>
+                    <div class="description">
+                        <div class="generalDesc"></div>
+                        <div class="secenderyDesc"></div>
+                    </div>
+                    <span class="swicher">View more</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="glass-img">
+                        <img src="../images/White Wine.png" alt="White Wine" />
+                    </div>
+                    <h3 class="glass-title">White Wine</h3>
+                    <div class="glass-param">
+                        <div class="param">Height:<span class="param-number">230mm</span></div>
+                        <div class="param">Volume:<span class="param-number">400mm</span></div>
+                    </div>
+                    <div class="description">
+                        <div class="generalDesc"></div>
+                        <div class="secenderyDesc"></div>
+                    </div>
+                    <span class="swicher">View more</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="showMore">
+                        <div class="showMore-text">Show more</div>
+                        <div class="showMore-img">
+                            <img src="../images/arrow.png" alt="Show more" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subscr">
+        <div class="container">
+            <div class="row">
+                <h3>Signup for Newsletter</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form name="subscribe" id="subscribeForm">
+                        <input type="text" class="subInput" />
+                        <input type="button" value="SUBSCRIBE" class="subBtn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discoProc">
+        <div class="container">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="aboutBrad">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/DinamickaDevelopment">DinamickaDevelopment</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </section>
     
-  </body>
+
+    <!-- Java Script area -->
+    <script src="javascripts/custom.js"></script>
+    <!-- Bootstrap core JS-------->
+    <script src="javascripts/jquery-1.11.3.min.js"></script>
+    <script src="javascripts/jquery-migrate-1.2.1.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <!-- Master slider core JS -->
+    <script src="javascripts/masterslider.min.js"></script>
+    <script>
+        var winHeight = $(window).height(), sliderHeight;
+
+    sliderHeight = winHeight - 103
+    var slider = new MasterSlider();
+    slider.setup('masterslider' , {
+        space: 5,
+        fullwidth: true,
+        height: sliderHeight,
+        fillMode:'strech',
+    });
+    </script>
+</body>
 </html>

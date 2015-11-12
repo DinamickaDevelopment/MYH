@@ -1,0 +1,196 @@
+﻿/*
+    Dinamicka Development
+    Documentation
+
+    Сontents
+    1.Helper classes
+    2.Header
+    3.mainSlider
+    4.zaltoGlassware
+    5.subscr(Subscribe)
+*/
+
+/*---------Helper classes--------------*/
+body {
+    margin:0;
+}
+h2{
+    font-family:'ADAM-CGPRO';
+    font-size: 33px;
+    color: #263238;
+    letter-spacing: 0.0075em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 31px;
+}
+h3{
+    font-family:'ADAM-CGPRO';
+    margin-top: 28px;
+    margin-bottom: 18px;
+    font-size: 22px;
+    color: #263238;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+/*---------Helper classes----end-------*/
+
+/*---------Header--------------*/
+.navmy-cutom{
+    height:103px;
+    border-bottom:1px solid #c53163;
+    margin-bottom:0;
+}
+.navmy-cutom .container{
+    height:103px;
+}
+.navbar-header{
+    height:100%;
+}
+.collapse ul.navbar-nav{
+    height:102px;
+    width: auto;
+    margin-left: 60px;
+}
+.nav>li{
+    height: 100%;
+    margin: 0 36px;
+}
+.nav>li a{
+    font-family:'ADAM-CGPRO';
+    font-size:16px;
+    letter-spacing:0.075em;
+    color:#263238!important;
+    height: 100%;
+}
+li.current{
+    border-bottom: 3px solid #c53163;
+}
+li.current a,.nav>li a:hover{
+    color:#c53163!important;
+}
+.dropdown-menu{
+    background-color:#263238;
+    padding:0;
+
+}
+.dropdown-menu>li>a{
+    padding:16px 71px 16px 5px;
+    color:#ffffff!important;
+}
+.dropdown-menu>li>a:hover{
+    background-color:#ffffff;
+    color:#263238!important;
+}
+.lang-cont{
+    display: inline-block;
+    height: 100%;
+    margin: 42px 0 42px 100px;
+    font-family: 'Roboto-Light';
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color:#333333!important;
+}
+.lang-cont a{
+   color:#333333!important;
+   padding:5px;
+   opacity:0.75;
+}
+.lang-cont a:hover,.lang-cont a:focus{
+    text-decoration:none;
+    color:#333333;
+    opacity:1;
+}
+/*---------Header----end-------*/
+/*---------mainSlider--------------*/
+#mainSlider{
+    display:block;
+    margin-top:103px;
+}
+/*---------mainSlider----end-------*/
+/*---------zaltoGlassware--------------*/
+.zaltoGlassware{
+    display:block;
+}
+.slogan{
+    font-family:'Raleway-ExtraLight';
+    color: #ab2b56;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+.glass-img img,.showMore-img img{
+    display:block;
+    margin:0 auto;
+}
+.param{
+    width:100%;
+    text-align:center;
+    font-family:'Raleway-Regular';
+    font-size:14px;
+    letter-spacing:0.075px;
+    color:#455a64;
+}
+.param-number{
+    font-family:'Roboto-Light';
+    padding-left:5px;
+}
+.swicher{
+    display:block;
+    margin-top:33px;
+    margin-bottom:47px;
+    width:100%;
+    font-family:'Raleway-Regular';
+    font-size:14px;
+    text-decoration:underline;
+    text-align:center;
+    cursor:pointer;
+}
+.showMore-img img{
+    cursor:pointer;
+}
+.showMore-text{
+    width:100%;
+    text-align:center;
+    font-family:'Raleway-ExtraLight';
+    font-size:13px;
+    margin-bottom:5px;
+    cursor:pointer;
+    letter-spacing:0.2em;
+}
+.showMore{
+    margin-bottom:50px;
+}
+/*---------zaltoGlassware----end-------*/
+
+/*---------subscr----end-------*/
+#subscr{
+    background-color:#263238;
+}
+#subscr h3{
+    color:#ffffff;
+    margin-top:18px;
+    margin-bottom:37px;
+    letter-spacing:0.1em;
+}
+#subscribeForm{
+    width:70%;
+    margin:0 auto;
+    margin-bottom:27px;
+}
+.subInput{
+    width: 75%;
+    height: 35px;
+}
+.subBtn{
+    height: 35px;
+    margin-left: 4%;
+    width: 20%;
+}
+/*---------subscr--------------*/
