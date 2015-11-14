@@ -8,6 +8,8 @@
     3.mainSlider
     4.zaltoGlassware
     5.subscr(Subscribe)
+    6.discoProc(Discovering the process)
+    7.Adaptive styles section
 */
 
 /*---------Helper classes--------------*/
@@ -43,6 +45,7 @@ h3{
     height:103px;
     border-bottom:1px solid #c53163;
     margin-bottom:0;
+    background-color:#ffffff;
 }
 .navmy-cutom .container{
     height:103px;
@@ -104,11 +107,41 @@ li.current a,.nav>li a:hover{
     color:#333333;
     opacity:1;
 }
+
 /*---------Header----end-------*/
 /*---------mainSlider--------------*/
 #mainSlider{
     display:block;
     margin-top:103px;
+}
+.ms-nav-next,.ms-nav-prev{
+    opacity:0.3;
+}
+.ms-nav-next:hover,.ms-nav-prev:hover{
+    opacity:1;
+}
+.ms-nav-next{
+    background-image:url('../images/arrow_slider right.png');
+    display:block;
+    position:absolute;
+    top:50%;
+    right:30px;
+    left:auto;
+    width:26px;
+    height:32px;cursor:pointer;
+}
+.ms-nav-prev{
+    background-image:url('../images/arrow_slider left.png');
+    display:block;
+    position:absolute;
+    top:50%;
+    left:30px;
+    right:auto;
+    width:26px;
+    height:32px;cursor:pointer;
+}
+.ms-slide+img{
+    width:100%;
 }
 /*---------mainSlider----end-------*/
 /*---------zaltoGlassware--------------*/
@@ -143,7 +176,7 @@ li.current a,.nav>li a:hover{
 }
 .swicher{
     display:block;
-    margin-top:33px;
+    margin-top:20px;
     margin-bottom:47px;
     width:100%;
     font-family:'Raleway-Regular';
@@ -152,24 +185,63 @@ li.current a,.nav>li a:hover{
     text-align:center;
     cursor:pointer;
 }
-.showMore-img img{
-    cursor:pointer;
+.showMore-img img {
+    cursor: pointer;
+    -moz-transition: transform 700ms;
+    -o-transition: transform 700ms;
+    -webkit-transition: transform 700ms;
+    transition: transform 700ms;
+}
+.rotate180 {
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 .showMore-text{
-    width:100%;
-    text-align:center;
+    width:93px;
     font-family:'Raleway-ExtraLight';
     font-size:13px;
-    margin-bottom:5px;
     cursor:pointer;
     letter-spacing:0.2em;
+    margin:0 auto;
+}
+.showMore-textCont{
+    width:100%;
+    margin-bottom:5px;
 }
 .showMore{
     margin-bottom:50px;
 }
+.description{
+    margin-top:25px;
+    display:none;
+    overflow:hidden;
+}
+.generalDesc,.secenderyDesc{
+    font-family:'Raleway-Regular';
+    font-size:14px;
+    letter-spacing:0.075px;
+    line-height:20px;
+    width:100%;
+    text-align:center;
+    color:#455a64;
+}
+.desctitle{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;
+    text-align:center;
+    color:#c53163;
+}
+.zaltoPart2{
+    display:none;
+ }
 /*---------zaltoGlassware----end-------*/
 
-/*---------subscr----end-------*/
+/*---------subscr-----------*/
 #subscr{
     background-color:#263238;
 }
@@ -193,4 +265,69 @@ li.current a,.nav>li a:hover{
     margin-left: 4%;
     width: 20%;
 }
-/*---------subscr--------------*/
+/*---------subscr------end-----*/
+/*---------discoProc-----------*/
+#discoProc{
+    margin-bottom:38px;
+}
+#ProcVideo{
+    height:462px;
+    width:100%;
+    margin:0 auto;
+}
+/*---------discoProc---end-----*/
+/*---------aboutBrad-----------*/
+#aboutBrad{
+    margin-bottom:88px;
+}
+.aboutTxt{
+    font-family:'Raleway-Medium';
+    font-size:16px;
+    color:#263238;
+    letter-spacing:0.05em;
+    width:100%;
+    text-align:center;
+    line-height:30px;
+}
+/*---------aboutBrad---end-----*/
+/*----------Footer-------------*/
+footer{
+    border-top:1px solid #c53163;
+    padding-top:22px;
+    padding-bottom:22px;
+    font-family:'Raleway-Light';
+    font-size:11px;
+    letter-spacing:0.025em;
+    text-align:left;
+    line-height:24px;
+    color:#455a64;
+    background-color:#fafafa;
+}
+.foot-img{
+    margin-bottom:22px;
+}
+.foot-txt{
+    width:100%;
+}
+.botMargin{
+    margin-bottom:50px;
+}
+.botMargin2{
+        margin-bottom:77px;
+}
+.foot-cont-txt{
+    font-size:12px;
+    margin-bottom:29px;
+}
+/*----------Footer-----end-----*/
+/*---------Adaptive styles section--------------*/
+@media(min-width:320px){
+
+}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+@media(min-width:1920px){}
+/*---------Adaptive styles section------end-----*/
+
+
