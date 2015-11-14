@@ -1,6 +1,5 @@
 ﻿$(window).ready(function () {
     $('.swicher').on('click', function () {
-        a = $(this).parent().find('.description').css('display');
         if ($(this).parent().find('.description').css('display') == 'none') {
             $(this).parent().find('.description').slideDown('fast');
             $(this).html('Hide details');
