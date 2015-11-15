@@ -330,7 +330,7 @@ footer{
     .botMargin2{margin-bottom:10px;}
     .botMargin{margin-bottom:150px;}
     .foot-cont-txt{margin-bottom:10px;}
-    .collapse ul.navbar-nav{margin-left:0;}
+    ul.navbar-nav{margin-left:0;}
     .lang-cont{margin: 42px 0 42px 15%;font-size: 1em;letter-spacing:0.025em}
     .Mobile{display:inline-block;}
     .Desktop{display:none;}
@@ -353,14 +353,14 @@ footer{
 }
 @media(min-width:993px){
     .nav>li{margin:0 15px;}
-    .collapse ul.navbar-nav{margin-left:45px;}
+    ul.navbar-nav{margin-left:45px;}
     .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
     body{font-size:14px}
 
 }
 @media(min-width:1201px){    
     .nav>li{margin:0 36px;}
-    .collapse ul.navbar-nav{margin-left:60px;}
+    ul.navbar-nav{margin-left:60px;}
     .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
 
 }
