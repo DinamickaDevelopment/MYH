@@ -120,7 +120,7 @@
 	width: 100%;
 }
 
-.ms-container { margin:0 auto;}
+.ms-container { position:relative;margin:0 auto;}
 .ms-slide .ms-slide-bgcont img , .ms-container{
 	-webkit-user-select:none;
 	-moz-user-select:none;

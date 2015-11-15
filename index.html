@@ -21,7 +21,8 @@
         <div class="container">
             <div class="navbar-header">
                 <!-- For mobile nav -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                <button type="button" class="navbar-toggle collapsed">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -31,9 +32,14 @@
                 <a class="navbar-brand" href="#">
                     <img alt="Brand" src="images/MYH_finewines_Logo.png">
                 </a>
+                <div class="lang-cont Mobile">
+                    <a href="#" class="lang">ENGLISH</a>|
+                    <a href="#" class="lang">中国</a>
+                </div>
             </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <div class="navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav ">
                     <li class="current"><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -47,10 +53,10 @@
                     </li>
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
-            <div class="lang-cont">
+                <div class="lang-cont Desktop">
                     <a href="#" class="lang">ENGLISH</a>|
                     <a href="#" class="lang">中国</a>
-            </div>
+                </div>
             </div><!-- /.div collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -59,25 +65,6 @@
             <div class="ms-slide">
                 <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
                 <!-- slide text layer -->
-                    <img class="ms-layer" alt="Zalto"
-                         style="top:145px;left:256px;"
-                         data-type="image"
-                         data-src="images/zalto_slider.png"
-                         src="images/slider.jpg"
-                         />
-                <h2 class="ms-layer"
-                    style="top:172px;left:192px;"
-                    data-type="text"
-
-                    >HANDCRAFTED</h2>
-                <p class="ms-layer"
-                   style="top:270px;left:204px;"
-                    data-type="text"
-                    >PERFECTION ACHIEVED</p>
-            </div>
-            <div class="ms-slide">
-                <!-- slide background -->
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
                 <img class="ms-layer" alt="Zalto"
                      style="top:145px;left:256px;"
                      data-type="image"
@@ -125,7 +112,24 @@
                 <p class="ms-layer"
                    style="top:270px;left:204px;"
                    data-type="text">PERFECTION ACHIEVED</p>
-                </div>
+            </div>
+            <div class="ms-slide">
+                <!-- slide background -->
+                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
+                <img class="ms-layer" alt="Zalto"
+                     style="top:145px;left:256px;"
+                     data-type="image"
+                     data-src="images/zalto_slider.png"
+                     src="images/slider.jpg" />
+                <h2 class="ms-layer"
+                    style="top:172px;left:192px;"
+                    data-type="text">
+                    HANDCRAFTED
+                </h2>
+                <p class="ms-layer"
+                   style="top:270px;left:204px;"
+                   data-type="text">PERFECTION ACHIEVED</p>
+            </div>
             <div class="ms-slide">
                 <!-- slide background -->
                 <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
@@ -239,7 +243,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="glass-img">
                         <img src="images/Sweet Wine.png" alt="Sweet Wine" />
-            </div>
+                    </div>
                     <h3 class="glass-title">Sweet Wine</h3>
                     <div class="glass-param">
                         <div class="param">Height:<span class="param-number">230mm</span></div>
@@ -285,7 +289,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="showMore">
                         <div class="showMore-textCont">
-                        <div class="showMore-text">Show more</div>
+                            <div class="showMore-text">Show more</div>
                         </div>
                         <div class="showMore-img">
                             <img id="ShowMorePIC" src="images/arrow.png" alt="Show more" />
@@ -346,7 +350,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
                     <div class="foot-img">
                         <img src="images/MYH_finewines_Logo_footer.png" alt="MYH" />
                         <img src="images/zalto denkart_no background_footer.png" alt="Zalto" />
@@ -354,19 +358,23 @@
                     <div class="foot-txt botMargin">Exclusive Importer and Distributor for Zalto<br /> in Hong Kong, Macau and Mainland China</div>
                     <div class="foot-txt">© <span style="font-family:'Roboto-Light';">2015</span> MYH Fine Wines. All rights reserved.</div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <div class="foot-cont-txt"><span style="font-family:'Raleway-Medium'">Hong Kong/Macau:</span><br />Ming Ying Hui (Hong Kong) Trading Ltd.<br /> 銘英會(香港)貿易有限公司</div>
-                    <div class="foot-cont-txt" style="margin-bottom:0;"><span style="font-family:'Raleway-Medium'">Mainland China:</span><br />Ming Ying Hui (Beijing) Trading Ltd.<br /> 銘英會(香港)貿易有限公司</div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <div class="foot-info-txt botMargin2">+<span style="font-family:'Roboto-Light';">86 158 1005 3940</span> (Mandarin/English)<br /><span style="font-family:'Roboto-Light';">+852 8120 7488</span>(English)</div>
-                    <div class="foot-info-txt">sales@myhfinewines.com<br />www.myhfinewines.com</div>
+                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                            <div class="foot-cont-txt margtp"><span style="font-family:'Raleway-Medium'">Hong Kong/Macau:</span><br />Ming Ying Hui (Hong Kong) Trading Ltd.<br /> 銘英會(香港)貿易有限公司</div>
+                            <div class="foot-cont-txt" style="margin-bottom:0;"><span style="font-family:'Raleway-Medium'">Mainland China:</span><br />Ming Ying Hui (Beijing) Trading Ltd.<br /> 銘英會(香港)貿易有限公司</div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="foot-info-txt botMargin2 margtp">+<span style="font-family:'Roboto-Light';">86 158 1005 3940</span> (Mandarin/English)<br /><span style="font-family:'Roboto-Light';">+852 8120 7488</span> (English)</div>
+                            <div class="foot-info-txt">sales@myhfinewines.com<br />www.myhfinewines.com</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    
+
 
     <!-- Bootstrap core JS-------->
     <script src="javascripts/jquery-1.11.3.min.js"></script>
@@ -377,19 +385,19 @@
     <!-- Java Script area -->
     <script src="javascripts/custom.js"></script>
     <script>
-    var slider = new MasterSlider();
+        var slider = new MasterSlider();
         slider.setup('masterslider', {
             space: 0,
-            width:1352,
+            width: 1352,
             height: 520,
-            loop:true
+            loop: true
         });
         slider.control('bullets', {
-            autohide: false, dir: "h",margin:30
+            autohide: false, dir: "h", margin: 30
         })
         slider.control('arrows', {
-            autohide:false
-    });
+            autohide: false
+        });
 
     </script>
 </body>

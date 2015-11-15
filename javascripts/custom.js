@@ -20,4 +20,11 @@
 
         }
     })
+    $('button').on('click', function () {
+        if ($('#navbar-collapse-1').hasClass('expand')) {
+            $('#navbar-collapse-1').removeClass('expand');
+        } else {
+            $('#navbar-collapse-1').addClass('expand');
+        }
+    })
 });

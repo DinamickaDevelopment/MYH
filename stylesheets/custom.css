@@ -18,7 +18,7 @@ body {
 }
 h2{
     font-family:'ADAM-CGPRO';
-    font-size: 33px;
+    font-size: 2.357em;
     color: #263238;
     letter-spacing: 0.0075em;
     text-transform: uppercase;
@@ -29,9 +29,9 @@ h2{
 }
 h3{
     font-family:'ADAM-CGPRO';
-    margin-top: 33px;
+    margin-top:33px;
     margin-bottom: 31px;
-    font-size: 22px;
+    font-size: 2.357em;
     color: #263238;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -56,15 +56,16 @@ h3{
 .collapse ul.navbar-nav{
     height:102px;
     width: auto;
-    margin-left: 60px;
+}
+.navbar-nav{
+    height:102px;
 }
 .nav>li{
     height: 100%;
-    margin: 0 36px;
 }
 .nav>li a{
     font-family:'ADAM-CGPRO';
-    font-size:16px;
+    font-size:1.143em;
     letter-spacing:0.075em;
     color:#263238!important;
     height: 100%;
@@ -91,9 +92,7 @@ li.current a,.nav>li a:hover{
 .lang-cont{
     display: inline-block;
     height: 100%;
-    margin: 42px 0 42px 100px;
     font-family: 'Roboto-Light';
-    font-size: 14px;
     letter-spacing: 0.025em;
     color:#333333!important;
 }
@@ -107,7 +106,12 @@ li.current a,.nav>li a:hover{
     color:#333333;
     opacity:1;
 }
-
+.navbar-toggle{
+    margin-top:5%;
+    margin-right:25px;
+}
+.navbar-collapse {
+    background-color: #ffffff;}
 /*---------Header----end-------*/
 /*---------mainSlider--------------*/
 #mainSlider{
@@ -151,7 +155,7 @@ li.current a,.nav>li a:hover{
 .slogan{
     font-family:'Raleway-Light';
     color: #ab2b56;
-    font-size: 20px;
+    font-size: 1.429em;
     letter-spacing: 0.15em;
     width: 100%;
     text-align: center;
@@ -169,7 +173,7 @@ li.current a,.nav>li a:hover{
     width:100%;
     text-align:center;
     font-family:'Raleway-Regular';
-    font-size:14px;
+    font-size:1em;
     letter-spacing:0.075px;
     color:#455a64;
 }
@@ -183,7 +187,7 @@ li.current a,.nav>li a:hover{
     margin-bottom:47px;
     width:100%;
     font-family:'Raleway-Regular';
-    font-size:14px;
+    font-size:1em;
     text-decoration:underline;
     text-align:center;
     cursor:pointer;
@@ -224,7 +228,7 @@ li.current a,.nav>li a:hover{
 }
 .generalDesc,.secenderyDesc{
     font-family:'Raleway-Regular';
-    font-size:14px;
+    font-size:1em;
     letter-spacing:0.075px;
     line-height:20px;
     width:100%;
@@ -285,7 +289,7 @@ li.current a,.nav>li a:hover{
 }
 .aboutTxt{
     font-family:'Raleway-Medium';
-    font-size:16px;
+    font-size:1.143em;
     color:#263238;
     letter-spacing:0.05em;
     width:100%;
@@ -299,9 +303,8 @@ footer{
     padding-top:22px;
     padding-bottom:22px;
     font-family:'Raleway-Regular';
-    font-size:11px;
+    font-size:0.786em;
     letter-spacing:0.025em;
-    text-align:left;
     line-height:24px;
     color:#455a64;
     background-color:#fafafa;
@@ -312,28 +315,55 @@ footer{
 .foot-txt{
     width:100%;
 }
-.botMargin{
-    margin-bottom:50px;
-}
-.botMargin2{
-        margin-bottom:77px;
-}
 .foot-info-txt{
     letter-spacing:0.15em
 }
 .foot-cont-txt{
-    font-size:12px;
-    margin-bottom:29px;
+    font-size:0.857em;
 }
 /*----------Footer-----end-----*/
 /*---------Adaptive styles section--------------*/
 @media(min-width:320px){
+    .nav>li{margin:0 10px;}
+    footer{text-align:center;}
+    .margtp{margin-top:10px}
+    .botMargin2{margin-bottom:10px;}
+    .botMargin{margin-bottom:150px;}
+    .foot-cont-txt{margin-bottom:10px;}
+    .collapse ul.navbar-nav{margin-left:0;}
+    .lang-cont{margin: 42px 0 42px 15%;font-size: 1em;letter-spacing:0.025em}
+    .Mobile{display:inline-block;}
+    .Desktop{display:none;}
+    body{font-size:12px}
+    .navbar-collapse{height:0;overflow-x:hidden}
+    li.current{border-bottom:0}
+    .expand{height:405%;overflow-x:hidden;}
+}
+@media(min-width:769px){
+    footer{text-align:left;}
+    .botMargin2{margin-bottom:77px;}
+    .botMargin{margin-bottom:50px;}
+    .foot-cont-txt{margin-bottom:29px;}
+    .Mobile{display:none;}
+    .Desktop{display:inline-block;}
+    .lang-cont{margin: 48px 0 42px 0;font-size: 0.5em;letter-spacing:0}
+    .navbar-collapse{height:102px;overflow-x:visible}
+        li.current{border-bottom: 3px solid #c53163;}
+        .expand{height:102px;overflow-x:visible}
+}
+@media(min-width:993px){
+    .nav>li{margin:0 15px;}
+    .collapse ul.navbar-nav{margin-left:45px;}
+    .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
+    body{font-size:14px}
 
 }
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
-@media(min-width:1920px){}
-/*---------Adaptive styles section------end-----*/
+@media(min-width:1201px){    
+    .nav>li{margin:0 36px;}
+    .collapse ul.navbar-nav{margin-left:60px;}
+    .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
 
+}
+@media(min-width:1921px){}
+/*---------Adaptive styles section------end-----*/
 
