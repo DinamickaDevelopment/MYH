@@ -82,7 +82,6 @@ li.current a,.nav>li a:hover{
 }
 .lang-cont{
     display: inline-block;
-    height: 100%;
     font-family: 'Roboto-Light';
     letter-spacing: 0.025em;
     color:#333333!important;
@@ -135,7 +134,7 @@ footer{
     .botMargin{margin-bottom:150px;}
     .foot-cont-txt{margin-bottom:10px;}
     ul.navbar-nav{margin-left:0;}
-    .lang-cont{margin: 42px 0 42px 15%;font-size: 1em;letter-spacing:0.025em}
+    .lang-cont{margin: 42px 0 0 15%;font-size: 1em;letter-spacing:0.025em}
     .Mobile{display:inline-block;}
     .Desktop{display:none;}
     body{font-size:12px}
@@ -150,7 +149,7 @@ footer{
     .foot-cont-txt{margin-bottom:29px;}
     .Mobile{display:none;}
     .Desktop{display:inline-block;}
-    .lang-cont{margin: 48px 0 42px 0;font-size: 0.5em;letter-spacing:0}
+    .lang-cont{margin: 48px 0 0 0;font-size: 0.5em;letter-spacing:0}
     .navbar-collapse{height:102px}
         li.current{border-bottom: 3px solid #c53163;}
         .expand{height:102px}
@@ -158,14 +157,14 @@ footer{
 @media(min-width:993px){
     .nav>li{margin:0 15px;}
     ul.navbar-nav{margin-left:45px;}
-    .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
+    .lang-cont{margin: 42px 0 0 9%;font-size: 1em;letter-spacing:0.025em}
     body{font-size:14px}
 
 }
 @media(min-width:1201px){    
     .nav>li{margin:0 36px;}
     ul.navbar-nav{margin-left:60px;}
-    .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
+    .lang-cont{margin: 42px 0 0 9%;font-size: 1em;letter-spacing:0.025em}
 
 }
 /*---------Adaptive styles section------end-----*/
