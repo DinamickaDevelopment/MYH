@@ -267,8 +267,12 @@ li.current a,.nav>li a:hover{
 .subInput{
     width: 75%;
     height: 35px;
-    padding-left:1.286em;
-    color:#263238
+    padding-left: 1.286em;
+    color: #263238;
+    border: 0;
+    padding: 0;
+    top: -2px;
+    position: relative;
 }
 .subBtn{
     background-color: #ffffff;
@@ -276,9 +280,10 @@ li.current a,.nav>li a:hover{
     border: 0;
     margin-left: 4%;
     width: 20%;
-    font-family:'Raleway-Light';
-    font-size:1.286em;
-    letter-spacing:0.06em
+    font-family: 'Raleway-Light';
+    font-size: 1.286em;
+    letter-spacing: 0.06em;
+    padding: 0;
 }
 .subInput::-webkit-input-placeholder     {color:#dcdcdc; letter-spacing:0.06em} 
 .subInput:-moz-placeholder      {color:#dcdcdc; letter-spacing:0.06em} 
