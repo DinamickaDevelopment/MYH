@@ -11,108 +11,6 @@
     6.discoProc(Discovering the process)
     7.Adaptive styles section
 */
-
-/*---------Helper classes--------------*/
-body {
-    margin:0;
-}
-h2{
-    font-family:'ADAM-CGPRO';
-    font-size: 2.357em;
-    color: #263238;
-    letter-spacing: 0.0075em;
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    margin-top: 39px;
-    margin-bottom: 31px;
-}
-h3{
-    font-family:'ADAM-CGPRO';
-    margin-top:33px;
-    margin-bottom: 31px;
-    font-size: 2.357em;
-    color: #263238;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-}
-/*---------Helper classes----end-------*/
-
-/*---------Header--------------*/
-.navmy-cutom{
-    height:103px;
-    border-bottom:1px solid #c53163;
-    margin-bottom:0;
-    background-color:#ffffff;
-}
-.navmy-cutom .container{
-    height:103px;
-}
-.navbar-header{
-    height:100%;
-}
-.collapse ul.navbar-nav{
-    height:102px;
-    width: auto;
-}
-.navbar-nav{
-    height:102px;
-}
-.nav>li{
-    height: 100%;
-}
-.nav>li a{
-    font-family:'ADAM-CGPRO';
-    font-size:1.143em;
-    letter-spacing:0.075em;
-    color:#263238!important;
-    height: 100%;
-}
-li.current{
-    border-bottom: 3px solid #c53163;
-}
-li.current a,.nav>li a:hover{
-    color:#c53163!important;
-}
-.dropdown-menu{
-    background-color:#263238;
-    padding:0;
-
-}
-.dropdown-menu>li>a{
-    padding:16px 71px 16px 5px;
-    color:#ffffff!important;
-}
-.dropdown-menu>li>a:hover{
-    background-color:#ffffff;
-    color:#263238!important;
-}
-.lang-cont{
-    display: inline-block;
-    height: 100%;
-    font-family: 'Roboto-Light';
-    letter-spacing: 0.025em;
-    color:#333333!important;
-}
-.lang-cont a{
-   color:#333333!important;
-   padding:5px;
-   opacity:0.75;
-}
-.lang-cont a:hover,.lang-cont a:focus{
-    text-decoration:none;
-    color:#333333;
-    opacity:1;
-}
-.navbar-toggle{
-    margin-top:5%;
-    margin-right:25px;
-}
-.navbar-collapse {
-    background-color: #ffffff;}
-/*---------Header----end-------*/
 /*---------mainSlider--------------*/
 #mainSlider{
     display:block;
@@ -317,28 +215,6 @@ li.current a,.nav>li a:hover{
     line-height:30px;
 }
 /*---------aboutBrad---end-----*/
-/*----------Footer-------------*/
-footer{
-    border-top:1px solid #c53163;
-    padding-top:22px;
-    padding-bottom:22px;
-    font-family:'Raleway-Regular';
-    font-size:0.857em;
-    letter-spacing:0.025em;
-    line-height:24px;
-    color:#455a64;
-    background-color:#fafafa;
-}
-.foot-img{
-    margin-bottom:22px;
-}
-.foot-txt{
-    width:100%;
-}
-.foot-info-txt{
-    letter-spacing:0.15em
-}
-/*----------Footer-----end-----*/
 /*---------Adaptive styles section--------------*/
 @media(min-width:320px){
     .nav>li{margin:0 10px;}
@@ -352,9 +228,9 @@ footer{
     .Mobile{display:inline-block;}
     .Desktop{display:none;}
     body{font-size:12px}
-    .navbar-collapse{height:0;overflow-x:hidden}
+    .navbar-collapse{height:0}
     li.current{border-bottom:0}
-    .expand{height:405%;overflow-x:hidden;}
+    .expand{height:405%}
 }
 @media(min-width:769px){
     footer{text-align:left;}
@@ -364,9 +240,9 @@ footer{
     .Mobile{display:none;}
     .Desktop{display:inline-block;}
     .lang-cont{margin: 48px 0 42px 0;font-size: 0.5em;letter-spacing:0}
-    .navbar-collapse{height:102px;overflow:hidden}
+    .navbar-collapse{height:102px}
         li.current{border-bottom: 3px solid #c53163;}
-        .expand{height:102px;overflow:hidden}
+        .expand{height:102px}
 }
 @media(min-width:993px){
     .nav>li{margin:0 15px;}
@@ -381,6 +257,5 @@ footer{
     .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
 
 }
-@media(min-width:1921px){}
 /*---------Adaptive styles section------end-----*/
 
