@@ -152,6 +152,7 @@ footer{
     .navbar-collapse{height:0;overflow: hidden;}
     li.current{border-bottom:0}
     .expand{height:405%}
+    .hollow{height:0;}
 }
 @media(min-width:769px){
     footer{text-align:left;}
@@ -163,9 +164,11 @@ footer{
     .Desktop-block{display:block;}
     .lang-cont{margin: 48px 0 0 0;font-size: 0.5em;letter-spacing:0}
     .navbar-collapse{height:102px;overflow: visible;}
-        li.current{border-bottom: 3px solid #c53163;}
-        .expand{height:102px}
-        .dropdown-menu{background-color:#263238;padding:0;border:1px solid transparent;width:100%}
+    li.current{border-bottom: 3px solid #c53163;}
+    .expand{height:102px}
+    .dropdown-menu{background-color:#263238;padding:0;border:1px solid transparent;width:100%}
+    .hollow{height:36px;}
+
 }
 @media(min-width:993px){
     .nav>li{margin:0 15px;}

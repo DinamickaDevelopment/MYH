@@ -1,10 +1,10 @@
 ﻿$(window).ready(function () {
     $('.swicher').on('click', function () {
         if ($(this).parent().find('.description').css('display') == 'none') {
-            $(this).parent().find('.description').slideDown('fast');
+            $(this).parent().find('.description').slideDown(700);
             $(this).html('Hide details');
         } else {
-            $(this).parent().find('.description').slideUp(200);
+            $(this).parent().find('.description').slideUp(700);
             $(this).html('View more');
         }
     });
