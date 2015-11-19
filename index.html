@@ -35,7 +35,7 @@
                 </a>
                 <div class="lang-cont Mobile">
                     <a href="index.html" class="lang">ENGLISH</a>|
-                    <a href="#" class="lang">中国</a>
+                    <a href="#" class="lang">中文 </a>
                 </div>
             </div>
             <div class="navbar-collapse" id="navbar-collapse-1">
@@ -54,7 +54,7 @@
                 </ul>
                 <div class="lang-cont Desktop">
                     <a href="index.html" class="lang">ENGLISH</a>|
-                    <a href="#" class="lang">中国</a>
+                    <a href="#" class="lang">中文 </a>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -305,10 +305,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <form name="subscribe" id="subscribeForm">
-                        <input type="text" class="subInput" placeholder="Enter your Email"/>
-                        <input type="button" value="SUBSCRIBE" class="subBtn" />
+                    <!-- Begin MailChimp Signup Form -->
+                    <form action="//myhfinewines.us9.list-manage.com/subscribe/post?u=66d3ca932ee7b025ebb7ede53&amp;id=703be6ffe3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribeForm" novalidate>
+                        <input type="email" value="" name="EMAIL" class="required email subInput" placeholder="Enter your Email" id="mce-EMAIL">
+                        <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe " class="button subBtn ">
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_66d3ca932ee7b025ebb7ede53_703be6ffe3" tabindex="-1" value=""></div>
                     </form>
+                    <!--End mc_embed_signup-->
                 </div>
             </div>
         </div>
@@ -389,7 +396,9 @@
             space: 0,
             width: 1352,
             height: 520,
-            loop: true
+            loop: true,
+            autoplay: true,
+
         });
         slider.control('bullets', {
             autohide: false, dir: "h", margin: 30
