@@ -10,12 +10,14 @@
 .ginkoslider{
     top:46px;
     height:296px;
-    width:570px;
+    width:100%;
     position:relative;
     display:inline-block;
     overflow:hidden;
     background-color:#fafafa;
 }
+.border-left{border-left:1px solid #c53163}
+.border-right{border-right:1px solid #c53163}
 .g-slide{
     top:100%;
     width:100%;
@@ -55,15 +57,6 @@
     80%{top:0;opacity:1}
     100%{top:-100%;opacity:0;}
 }
-.border-left{border-left:1px solid #c53163}
-.border-right{border-right:1px solid #c53163}
-.left-2{
-    left:-2px;
-}
-.rigth-2{
-    right:-2px;
-}
-
 .verticalAligne {
     position: relative;
     top: 50%;
@@ -121,3 +114,4 @@
 
 /*----------aaa----------*/
 /*----------aaa---end----*/.hollow{height:60px;}
+

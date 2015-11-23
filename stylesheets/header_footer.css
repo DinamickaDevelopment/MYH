@@ -145,7 +145,7 @@ footer{
     .botMargin{margin-bottom:150px;}
     .foot-cont-txt{margin-bottom:10px;}
     ul.navbar-nav{margin-left:0;}
-    .lang-cont{margin: 42px 0 0 15%;font-size: 1em;letter-spacing:0.025em}
+    .lang-cont{margin: 42px 0 0 5%;font-size: 1em;letter-spacing:0.025em}
     .Mobile{display:inline-block;}
     .Desktop,.Desktop-block{display:none;}
     body{font-size:12px}
@@ -154,6 +154,7 @@ footer{
     .expand{height:405%}
     .hollow{height:0;}
 }
+@media(min-width:460px){.lang-cont{margin: 42px 0 0 15%;}}
 @media(min-width:769px){
     footer{text-align:left;}
     .botMargin2{margin-bottom:77px;}
@@ -162,7 +163,7 @@ footer{
     .Mobile{display:none;}
     .Desktop{display:inline-block;}
     .Desktop-block{display:block;}
-    .lang-cont{margin: 48px 0 0 0;font-size: 0.5em;letter-spacing:0}
+    .lang-cont{margin: 46px 0 0 0;font-size: .9em;letter-spacing:0}
     .navbar-collapse{height:102px;overflow: visible;}
     li.current{border-bottom: 3px solid #c53163;}
     .expand{height:102px}

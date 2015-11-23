@@ -55,6 +55,9 @@
 .ms-slide+img{
     width:100%;
 }
+.ms-container{
+    margin:0 auto;
+}
 /*--------posthederSlider--end----*/
 
 /*--------gravitasOmega---------*/

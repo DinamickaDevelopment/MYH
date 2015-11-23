@@ -45,6 +45,12 @@
 .ms-slide+img{
     width:100%;
 }
+.ms-container{
+    margin:0 auto;
+}
+h2.ms-layer{
+    width:auto;
+}
 /*---------mainSlider----end-------*/
 /*---------zaltoGlassware--------------*/
 .zaltoGlassware{
@@ -90,6 +96,7 @@
     text-align:center;
     cursor:pointer;
 }
+.swicher{text-decoration:underline;}
 .pointer{font-family:'ADAM-CGPRO';text-decoration:none;}
 .underline{text-decoration:underline;color:#263238;}
 .underline:hover{color:#263238!important}
@@ -167,26 +174,28 @@
     margin-bottom:27px;
 }
 .subInput{
-    width: 75%;
+    width: 100%;
     height: 35px;
     padding:0 0 0 1.286em;
     color: #263238;
     border: 0;
-    top: -2px;
     position: relative;
     font-family:'Raleway-Regular';
     font-size:1em;
+    margin-bottom:28px;
 }
 .subBtn{
     background-color: #ffffff;
     height: 35px;
     border: 0;
-    margin-left: 4%;
-    width: 20%;
     font-family: 'Raleway-Light';
     font-size: 1.286em;
     letter-spacing: 0.06em;
     padding: 0;
+        margin-bottom:28px;
+        display:block;
+        margin:0 auto;
+
 }
 .subBtn:hover{
     background-color:#fafafa;
@@ -276,6 +285,7 @@
     .navbar-collapse{height:0}
     li.current{border-bottom:0}
     .expand{height:405%}
+    .subBtn{width:40%}
 }
 @media(min-width:769px){
     footer{text-align:left;}
@@ -294,6 +304,7 @@
     ul.navbar-nav{margin-left:45px;}
     .lang-cont{margin: 42px 0 42px 9%;font-size: 1em;letter-spacing:0.025em}
     body{font-size:14px}
+        .subBtn{width:100%}
 
 }
 @media(min-width:1201px){    

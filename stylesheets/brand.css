@@ -12,9 +12,7 @@
 h2{
     margin-top:0;
 }
-.row>div{
-    padding-left:0;padding-right:0;
-}
+.no-pad div.row div{padding-left:0;padding-right:0}
 /*-----Brand------*/
 #brandSec{
     margin-top:102px;
@@ -90,7 +88,7 @@ h2{
 
 .placehold{
     width: 51%;
-    height: 30px;
+    height: 25px;
     margin: 0 auto;
 
 }

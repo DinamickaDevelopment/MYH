@@ -11,6 +11,14 @@
 #contactForm{
     margin-top:103px;
 }
+.phoneNomber{
+    font-family:'Roboto-Medium';
+    font-size:1.143em;
+    letter-spacing:0.035em;
+    width:100%;
+    text-align:left;
+    color:#263238;
+}
 #mc_embed_signup{margin:0 auto;width:49%;}
 .slogan{
     font-family:'Raleway-Light';
@@ -20,7 +28,7 @@
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 41px;
+    margin-bottom: 33px;
 }
 input[type=text], input[type=email] {
     height: 45px;
@@ -71,14 +79,15 @@ input.placeholderimit + label.placeholderobj:after{
     color:#fafafa;
     text-decoration:none;
 }
-ul{list-style-type:none}
+
+/*imitation of radio*/
 /*hide radiobtn*/
-input[type=radio]{
+input[type=radio],input[type=checkbox]{
     opacity:0;
     display:block;
 }
 /*style for all label after radiobtn*/
-input[type=radio] + label{
+input[type=radio] + label,input[type=checkbox] + label{
     font-family:'Raleway-Light';
     font-size:1em;
     letter-spacing:0.06em;
@@ -88,7 +97,8 @@ input[type=radio] + label{
     left: 41px;
     top: -6px;
 }
-input[type=radio] + label:before {
+input[type=checkbox] + label{top:1px;}
+input[type=radio] + label:before,input[type=checkbox] + label:before {
   content: '';
   position: absolute;
   top: -4px;
@@ -97,31 +107,35 @@ input[type=radio] + label:before {
   width: 26px;
   height: 26px;
   border-radius: 13px;
-}
-    input[type=radio] + label:after {
-        content: '';
-        position: absolute;
-        top: 1px;
-        left: -30px;
-        width: 16px;
-        height: 16px;
-        opacity: 0;
-        border-radius: 10px;
-        background: #c53163;
-        -moz-transition: opacity .2s;
-        -o-transition: opacity .2s;
-        -webkit-transition: opacity .2s;
-        transition: opacity .2s;
+}    
+input[type=radio] + label:after,input[type=checkbox] + label:after  {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: -30px;
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  border-radius: 10px;
+  background: #c53163;
+  -moz-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  -webkit-transition: opacity .2s;
+   transition: opacity .2s;
     }
-/* Сдвигаем переключатель чекбокса, когда он включен. */
-input[type=radio]:checked + label:before{
-    border-color:#2b373d;
-}
-input[type=radio]:checked + label{
-    color:#2b373d;
-}
-input[type=radio]:checked + label:after {
-  opacity:1
+input[type=checkbox] + label:before,input[type=checkbox] + label:after{
+    border-radius:0;
 }
 
+/* styles for active conditions */
+input[type=radio]:checked + label:before,input[type=checkbox]:checked + label:before{
+    border-color:#2b373d;
+}
+input[type=radio]:checked + label,input[type=checkbox]:checked + label{
+    color:#2b373d;
+}
+input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:after {
+  opacity:1
+}
+.no-paddings div{padding:0}
 /*---------ContactForm----end-------*/
