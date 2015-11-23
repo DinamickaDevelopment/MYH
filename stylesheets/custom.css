@@ -285,7 +285,7 @@ h2.ms-layer{
     .navbar-collapse{height:0}
     li.current{border-bottom:0}
     .expand{height:405%}
-    .subBtn{width:40%}
+    .subBtn{width:135px;}
 }
 @media(min-width:769px){
     footer{text-align:left;}

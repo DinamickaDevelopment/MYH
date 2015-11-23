@@ -62,7 +62,6 @@ input.placeholderimit + label.placeholderobj:after{
     width:146px;
     height:48px;
     background-color:#263238;
-    float:right;
     border:0;
     color:#ffffff;
     font-family:'ADAM-CGPRO';
@@ -72,7 +71,7 @@ input.placeholderimit + label.placeholderobj:after{
     text-decoration:none;
     line-height:48px;
     display:block;
-    margin:15px 0 ;
+    margin:15px auto ;
  
 }
 .contsubbtn:hover,.contsubbtn:active{
