@@ -80,17 +80,21 @@
     font-family:'Roboto-Light';
     padding-left:5px;
 }
-.swicher{
+.swicher,.hyper{
     display:block;
     margin-top:20px;
     margin-bottom:47px;
     width:100%;
     font-family:'Raleway-Regular';
     font-size:1em;
-    text-decoration:underline;
     text-align:center;
     cursor:pointer;
 }
+.pointer{font-family:'ADAM-CGPRO';text-decoration:none;}
+.underline{text-decoration:underline;color:#263238;}
+.underline:hover{color:#263238!important}
+.not-under{text-decoration:none;color:#263238}
+.not-under:hover{text-decoration:none;color:#263238}
 .showMore-img img {
     cursor: pointer;
     -moz-transition: transform 700ms;
@@ -187,18 +191,34 @@
 .subBtn:hover{
     background-color:#fafafa;
 }
-.subInput::-webkit-input-placeholder     {color:#dcdcdc; letter-spacing:0.06em} 
-.subInput:-moz-placeholder      {color:#dcdcdc; letter-spacing:0.06em} 
-.subInput:-ms-input-placeholder {color:#dcdcdc; letter-spacing:0.06em}   
+.subInput::-webkit-input-placeholder{color:#dcdcdc; letter-spacing:0.06em} 
+.subInput:-moz-placeholder          {color:#dcdcdc; letter-spacing:0.06em} 
+.subInput:-ms-input-placeholder     {color:#dcdcdc; letter-spacing:0.06em} 
+
+.subInput::-webkit-input-placeholder::after,
+.subInput::-moz-placeholder::after,
+.subInput:-ms-input-placeholder::after  {
+    content:'*';
+    color:red;
+} 
+.udertext{
+    font-family:'Raleway-Light';
+    font-size:0.857em;
+    width:100%;
+    text-align:center;
+    display:block;
+    color:#ffffff;
+    margin-bottom:16px
+} 
 /*---------subscr------end-----*/
 /*---------discoProc-----------*/
 #discoProc{
     margin-bottom:38px;
 }
 #ProcVideo{
-    height:462px;
-    width:100%;
+    width:72%;
     margin:0 auto;
+    display:block;
 }
 /*---------discoProc---end-----*/
 /*---------aboutBrad-----------*/
@@ -213,6 +233,31 @@
     width:100%;
     text-align:center;
     line-height:30px;
+}
+.brand-btn,.praise-btn{
+    text-transform:uppercase;
+    width:185px;
+    height:48px;
+    background-color:#263238;
+    display:block;
+    margin:10px auto;
+}
+
+.brand-btn a,.praise-btn a{
+    color:#ffffff;
+    font-family:'ADAM-CGPRO';
+    font-size:1.143em;
+    letter-spacing:0.075em;
+    text-align:center;
+    text-decoration:none;
+    line-height:48px;
+    width:100%;
+    display:block;
+}
+
+.brand-btn a:hover,.brand-btn a:active,.praise-btn a:hover,.praise-btn a:active{
+    color:#fafafa;
+    text-decoration:none;
 }
 /*---------aboutBrad---end-----*/
 /*---------Adaptive styles section--------------*/
