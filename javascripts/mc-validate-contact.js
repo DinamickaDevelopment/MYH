@@ -254,10 +254,6 @@
 		 *	Error messages are displayed with the invalid input when possible, or appended to #mce-error-response
 		 */
         mce_success_cb: function (resp) {
-            if (resp.result == 'error') {
-                resp.msg = 'Sory, but something went wrong'
-            }
-
             $('#mce-success-response').hide();
             $('#mce-error-response').hide();
 
@@ -308,7 +304,7 @@
                     // If index is -1 if means we don't have data on specifically which field was invalid.
                     // Just lump the error message into the generic response div.
                     if (index == -1) {
-                        $('#mce-' + resp.result + '-response').html('This email is already subscribed');
+                        $('#mce-' + resp.result + '-response').html(msg);
                         $('#mce-' + resp.result + '-response').fadeIn(700);
                         setTimeout(function () {
                             $('#mce-' + resp.result + '-response').fadeOut(700);
