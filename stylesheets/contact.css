@@ -11,6 +11,9 @@
 #contactForm{
     margin-top:103px;
 }
+form{
+    position:relative;
+}
 .phoneNomber{
     font-family:'Roboto-Medium';
     font-size:1.143em;
@@ -163,4 +166,21 @@ input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:aft
     color: white;
     overflow:hidden;
 }
+.qrholder{
+    position: absolute;
+    z-index: 20;
+    right: -213px;
+    border: 1px solid #b0bec5;
+    margin: 6px;
+    width: 200px;
+    height: 268px;
+}
+.qrholder img{display:block;margin:0 auto;}
+.qrtext{font: 14px 'Raleway-Light';
+        letter-spacing:0.1em;
+        color:#263238;
+        text-align:center;
+        line-height:24px;
+}
+.qr{position: relative;bottom: -20px;}
 /*---------ContactForm----end-------*/
