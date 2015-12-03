@@ -96,6 +96,7 @@ h2.ms-layer{
     text-align:center;
     cursor:pointer;
 }
+.hyper{font-family:1.071em;}
 .swicher{text-decoration:underline;}
 .pointer{font-family:'ADAM-CGPRO';text-decoration:none;}
 .underline{text-decoration:underline;color:#263238;}
@@ -212,7 +213,7 @@ h2.ms-layer{
 } 
 .udertext{
     font-family:'Raleway-Light';
-    font-size:0.857em;
+    font-size:0.929em;
     width:100%;
     text-align:center;
     display:block;

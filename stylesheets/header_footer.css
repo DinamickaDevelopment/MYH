@@ -135,17 +135,17 @@ footer{
     letter-spacing:0.15em
 }
 .undercover{
-    padding-top: 22px;background-color:#25323a;
+    padding-top: 22px;background-color:#25323a;padding-left: 18px;
 }
 .wechat-logo{
     display:inline-block;
 }
 .wechat-txt{
     display:inline-block;
-    font-family:'Raleway-ExtraLight';
     font-size:11px;
     letter-spacing:0.2em;
     color:white;
+    margin-left: 7px;
 }
 /*-------------footer------end----------*/
 /*---------Adaptive styles section--------------*/
