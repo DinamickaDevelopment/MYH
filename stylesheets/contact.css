@@ -58,6 +58,9 @@ input.placeholderimit + label.placeholderobj:after,textarea.placeholderimit + la
     content:'*';
     color:#c53163;
 }
+input.placeholderimit + label.placeholderobj.nostar:after,textarea.placeholderimit + label.placeholderobj.nostar:after{
+    content:'';
+}
 .mc-field-group{
     position:relative;
     width:100%;
