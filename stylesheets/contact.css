@@ -176,13 +176,14 @@ input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:aft
     height: 268px;
 }
 .qrholder img{display:block;margin:0 auto;}
-.qrtext{font: 14px 'Raleway-Light';
+.qrtext{    padding-top: 10px;
+    font: 14px 'Raleway-Light';
         letter-spacing:0.1em;
         color:#263238;
         text-align:center;
         line-height:24px;
 }
-.qr{position: relative;bottom: -20px;}
+.qr{position: relative;bottom: -10px;}
 .newstxt{
     font-family:'Raleway-Light';
     font-size:12px;
