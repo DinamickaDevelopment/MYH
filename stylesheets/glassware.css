@@ -58,6 +58,31 @@
 .ms-container{
     margin:0 auto;
 }
+.rotator{position: relative;overflow: hidden;}
+.imgHolder{position:relative;left:-2129px;}
+.infinitanimation {
+    -moz-animation: rotatore 45s linear infinite;
+    -o-animation: rotatore 45s linear infinite;
+    -webkit-animation: rotatore 45s linear infinite;
+    animation: rotatore 45s linear infinite;
+}
+@-moz-keyframes rotatore{
+    from{left:-2129px}
+    to{left:-5606px}
+
+}
+
+@-webkit-keyframes rotatore{
+    from{left:-2129px}
+    to{left:-5606px}
+
+}
+
+@keyframes rotatore{
+    from{left:-2129px}
+    to{left:-5606px}
+
+}
 /*--------posthederSlider--end----*/
 
 /*--------gravitasOmega---------*/

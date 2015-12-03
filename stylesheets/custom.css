@@ -23,7 +23,7 @@
     opacity:1;
 }
 .ms-nav-next{
-    background-image:url('../images/arrow_slider right.png');
+    background-image:url('../images/arrow_slider right1.png');
     display:block;
     position:absolute;
     top:50%;
@@ -33,7 +33,7 @@
     height:32px;cursor:pointer;
 }
 .ms-nav-prev{
-    background-image:url('../images/arrow_slider left.png');
+    background-image:url('../images/arrow_slider left1.png');
     display:block;
     position:absolute;
     top:50%;
@@ -50,26 +50,6 @@
 }
 h2.ms-layer{
     width:auto;
-}
-.gravomega{
-    font-family:'Raleway-ExtraLight'!important;
-    font-size:62px!important;
-
-}
-.tableP{
-    font-family:'ADAM.CG PRO'!important;
-    font-size:25px!important;
-    letter-spacing:0.055em!important;
-}
-.tableP2{    
-    font-family:'Raleway-Light'!important;
-    font-size:20px!important;
-    letter-spacing:0.150em!important;}
-.tableH2{
-    font-family:'Raleway-Light'!important;
-    font-size:50px!important;
-    letter-spacing:0.054em!important;
-
 }
 /*---------mainSlider----end-------*/
 /*---------zaltoGlassware--------------*/
@@ -304,7 +284,7 @@ h2.ms-layer{
     letter-spacing:0.075em;
     text-align:center;
     text-decoration:none;
-    line-height:48px;
+    line-height:45px;
     width:100%;
     display:block;
 }

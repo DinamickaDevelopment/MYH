@@ -59,35 +59,11 @@
         </div><!-- /.container-fluid -->
     </nav>
     <section id="posthederSlider">
-        <div class="master-slider" id="infinitslider">
-            <div class="ms-slide" data-delay=".2">
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
-                <!-- slide text layer -->
-                <img alt="Zalto" style="position:absolute;right:0;bottom:0;opacity:.3" src="images/zalto_slider.png" />
+        <div class="rotator">
+            <div class="imgHolder infinitanimation">
+                <img src="images/infinitIMGX2.jpg" />
             </div>
-            <div class="ms-slide" data-delay=".2">
-                <!-- slide background -->
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
-                <img alt="Zalto" style="position:absolute;right:0;bottom:0;opacity:.3" src="images/zalto_slider.png" />
-            </div>
-            <div class="ms-slide" data-delay=".2">
-                <!-- slide background -->
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
-                <img alt="Zalto" style="position:absolute;right:0;bottom:0;opacity:.3" src="images/zalto_slider.png" />
-            </div>
-            <div class="ms-slide" data-delay=".2">
-                <!-- slide background -->
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
-                <img alt="Zalto" style="position:absolute;right:0;bottom:0;opacity:.3" src="images/zalto_slider.png" />
-            </div>
-            <div class="ms-slide" data-delay=".2">
-                <!-- slide background -->
-                <img src="images/slider.jpg" data-src="images/slider.jpg" alt="lorem ipsum dolor sit" />
-                <img alt="Zalto" style="position:absolute;right:0;bottom:0;opacity:.3" src="images/zalto_slider.png"/>
-            </div>
-            <!-- end of slide -->
         </div>
-        <!-- end of masterslider -->
     </section>
     <section id="gravitasOmega">
         <div class="container">
@@ -367,23 +343,7 @@
     <script src="javascripts/jquery-1.11.3.min.js"></script>
     <script src="javascripts/jquery-migrate-1.2.1.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
-    <!-- Master slider core JS -->
-    <script src="javascripts/masterslider.min.js"></script>
     <!-- Java Script area -->
     <script src="javascripts/custom.js"></script>
-    <script>
-        var slider = new MasterSlider();
-        slider.setup('infinitslider', {
-            space: 0,
-            width: 1352,
-            height: 260,
-            loop: true,
-            autoplay: true,
-            speed: 12,
-            overPause: false,
-            grabCursor: false,
-            swipe: false,
-        });
-    </script>
 </body>
 </html>

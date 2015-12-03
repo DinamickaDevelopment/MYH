@@ -82,7 +82,7 @@
                 <!-- slide background -->
                 <img src="images/mainslider/slider.jpg" data-src="images/mainslider/Gravitas.jpg" alt="lorem ipsum dolor sit" />
                 <h2 class="ms-layer gravomega"
-                    style="top:74px;left:679px;color:#263238"
+                    style="top:74px;left:679px;color:#263238;font-family:'Raleway-ExtraLight';font-size:62px;"
                     data-type="text">
                     GRAVITAS OMEGA
                 </h2>
@@ -95,21 +95,21 @@
                 <!-- slide background -->
                 <img src="images/mainslider/slider.jpg" data-src="images/mainslider/L'Imperatrice-IngaBeckmann-edited.jpg" alt="lorem ipsum dolor sit" />
                 <p class="ms-layer tableP"
-                   style="top:172px;right: 110px;"
+                   style="top:172px;right: 110px;font-family:'ADAM.CG PRO';font-size:25px;letter-spacing:0.055em;"
                    data-type="text">
                     Zalto glassware always gives our wines
                 </p>
                 <h2 class="ms-layer tableH2"
-                    style="top:172px;right: 110px;"
+                    style="top:172px;right: 110px;font-family:'Raleway-Light';font-size:50px;letter-spacing:0.054em;"
                     data-type="text">
                     an extra “oomph”
                 </h2>
                 <p class="ms-layer tableP2"
-                   style="top:270px;right: 110px;"
+                   style="top:270px;right: 110px;font-family:'Raleway-Light';font-size:20px;letter-spacing:0.150em"
                    data-type="text">Julien Froger, Founder L'Imperatrice</p>
 
                 <div class="ms-layer brand-btn"
-                     style="top:300px;right: 110px;">
+                     style="top:300px;right: 110px;width:185px;height:48px;">
                     <a href="theglassware.html">View praise</a>
                 </div>
             </div>
@@ -349,7 +349,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6" style="padding-top: 22px;">
                     <div class="foot-img">
                         <img src="images/MYH_finewines_Logo_footer.png" alt="MYH" />
                         <img src="images/zalto denkart_no background_footer.png" alt="Zalto" />
@@ -359,16 +359,21 @@
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
                     <div class="row">
-                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" style="padding-top: 22px;">
                             <div class="foot-cont-txt margtp"><span style="font-family:'Raleway-Medium'">Hong Kong/Macau:</span><br />Ming Ying Hui (Hong Kong) Trading Ltd.<br /> 銘英會(香港)貿易有限公司</div>
                             <div class="foot-cont-txt" style="margin-bottom:0;"><span style="font-family:'Raleway-Medium'">Mainland China:</span><br />Ming Ying Hui (Beijing) Trading Ltd.<br /> 銘英會(北京)貿易有限公司</div>
                         </div>
-                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                            <div class="foot-info-txt botMargin2 margtp">Hong Kong<span style="font-family:'Roboto-Light';">+852 8120 7488</span> <br />Mainland China <span style="font-family:'Roboto-Light';">+86 (10) 6568 3631</span></div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 undercover">
+                            <div class="foot-info-txt botMargin2 margtp">Hong Kong<span style="font-family:'Roboto-Light';white-space:nowrap;"> +852 8120 7488</span> <br />Mainland China <span style="font-family:'Roboto-Light';white-space:nowrap;">+86 (10) 6568 3631</span></div>
+                            <div class="wechat">
+                                <div class="wechat-logo"><img src="images/WeChat-Logo.png" /></div>
+                                <div class="wechat-txt">myhfinewines</div>
+                            </div>
                             <div class="foot-info-txt">sales@myhfinewines.com<br />www.myhfinewines.com</div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </footer>
@@ -390,7 +395,9 @@
             width: 1352,
             height: 520,
             loop: true,
-            //autoplay: true,
+            swipe: false,
+            grabCursor:false,
+            autoplay: true,
 
         });
         slider.control('bullets', {

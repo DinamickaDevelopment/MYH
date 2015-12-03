@@ -73,7 +73,7 @@ input.placeholderimit + label.placeholderobj:after,textarea.placeholderimit + la
     letter-spacing:0.075em;
     text-align:center;
     text-decoration:none;
-    line-height:48px;
+    padding-bottom: 6px;
     display:block;
     margin:15px auto ;
  

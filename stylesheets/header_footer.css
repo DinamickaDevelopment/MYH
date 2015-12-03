@@ -117,8 +117,6 @@ li.current a,.nav>li a:hover{
 /*-------------footer-------------------*/
 footer{
     border-top:1px solid #c53163;
-    padding-top:22px;
-    padding-bottom:22px;
     font-family:'Raleway-Regular';
     font-size:0.857em;
     letter-spacing:0.025em;
@@ -133,7 +131,21 @@ footer{
     width:100%;
 }
 .foot-info-txt{
+    color:#ffffff;
     letter-spacing:0.15em
+}
+.undercover{
+    padding-top: 22px;background-color:#25323a;
+}
+.wechat-logo{
+    display:inline-block;
+}
+.wechat-txt{
+    display:inline-block;
+    font-family:'Raleway-ExtraLight';
+    font-size:11px;
+    letter-spacing:0.2em;
+    color:white;
 }
 /*-------------footer------end----------*/
 /*---------Adaptive styles section--------------*/
@@ -155,11 +167,11 @@ footer{
     .hollow{height:0;}
     .no-paddings{padding-left:15px;}
     .mobil-center{float:none}
+    .undercover{height:275px}
 }
-@media(min-width:460px){.lang-cont{margin: 42px 0 0 15%;}}
+@media(min-width:460px){.lang-cont{margin: 42px 0 0 15%;}.undercover{height:228px}}
 @media(min-width:769px){
     footer{text-align:left;}
-    .botMargin2{margin-bottom:77px;}
     .botMargin{margin-bottom:50px;}
     .foot-cont-txt{margin-bottom:29px;}
     .Mobile{display:none;}

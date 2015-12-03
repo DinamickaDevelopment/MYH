@@ -279,7 +279,7 @@
 	left:0;
 	height:10px;
 	margin-right:6px;
-	border:3px solid rgba(255,255,255,0.65);
+	border:3px solid rgba(200,200,200,0.65);
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -292,13 +292,13 @@
 }
 
 .ms-bullets.ms-dir-h .ms-bullet:hover {
-	border:3px solid rgba(255,255,255,1);
+	border:3px solid rgba(200,200,200,1);
 }
 
 .ms-bullets.ms-dir-h .ms-bullet-selected {
-	border:2px solid rgba(255,255,255,1);
+	border:2px solid rgba(200,200,200,1);
 }
 
 .ms-bullets.ms-dir-h .ms-bullet-selected:hover {
-	border:2px solid rgba(255,255,255,1);
+	border:2px solid rgba(200,200,200,1);
 }
