@@ -38,7 +38,7 @@ input[type=text], input[type=email],textarea {
     border: 1pt solid #b0bec5;
     padding: 16px 0 16px 19px;
     width: 100%;
-    margin:6px 0;
+    margin:3px 0;
 }
 textarea{max-width:100%;min-height:147px;}
 label{font-weight:100;}
@@ -51,7 +51,7 @@ input.placeholderimit + label.placeholderobj,textarea.placeholderimit + label.pl
     display:block;
     position:absolute;
     z-index:10;
-    top:19px;
+    top:16px;
     left:16px;
 }
 input.placeholderimit + label.placeholderobj:after,textarea.placeholderimit + label.placeholderobj:after{
@@ -174,7 +174,7 @@ input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:aft
     z-index: 20;
     right: -213px;
     border: 1px solid #b0bec5;
-    margin: 6px;
+    margin: 3px 6px;
     width: 200px;
     height: 268px;
 }
