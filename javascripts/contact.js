@@ -11,8 +11,10 @@
     function cityAnable() {
         if ($('.mainChina,.mainChina+label').is(':checked')) {
             document.getElementById('mce-NCITY').removeAttribute('disabled');
+            $('#mce-NCITY').addClass('required');
         } else {
             document.getElementById('mce-NCITY').setAttribute('disabled', 'disabled');
+            $('#mce-NCITY').removeClass('required');
         }
     }
     function fadeforms() {

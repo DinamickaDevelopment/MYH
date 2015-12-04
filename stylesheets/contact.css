@@ -100,7 +100,7 @@ input[type=radio] + label,input[type=checkbox] + label{
     color:#dcdcdc;
     cursor:pointer;
     position:relative;
-    left: 41px;
+    left: 35px;
     top: -6px;
 }
 input[type=checkbox] + label{top:1px;}
@@ -198,5 +198,5 @@ input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:aft
 #preHide{
     display:none;
 }
-.tempMargin{margin-bottom:153px;}
+.tempMargin{margin-bottom:26.51vh;}
 /*---------ContactForm----end-------*/
