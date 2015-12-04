@@ -103,6 +103,9 @@ input[type=radio] + label,input[type=checkbox] + label{
     left: 35px;
     top: -6px;
 }
+input[type=radio] + label{
+    left:38px;
+}
 input[type=checkbox] + label{top:1px;}
 input[type=radio] + label:before,input[type=checkbox] + label:before {
   content: '';
