@@ -51,8 +51,8 @@ input.placeholderimit + label.placeholderobj,textarea.placeholderimit + label.pl
     display:block;
     position:absolute;
     z-index:10;
-    top:17px;
-    left:19px;
+    top:19px;
+    left:16px;
 }
 input.placeholderimit + label.placeholderobj:after,textarea.placeholderimit + label.placeholderobj:after{
     content:'*';
@@ -195,4 +195,8 @@ input[type=radio]:checked + label:after,input[type=checkbox]:checked + label:aft
     height:54px;
     line-height:54px;
 }
+#preHide{
+    display:none;
+}
+.tempMargin{margin-bottom:153px;}
 /*---------ContactForm----end-------*/
